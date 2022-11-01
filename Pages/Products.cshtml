@@ -1,0 +1,21 @@
+﻿@page
+@model FruitShop.Pages.ProductsModel
+@{
+    ViewData["Title"] = "Products";
+}
+<div class="text-center">
+    <h1 class="display-4">Products</h1>
+    <h1>Organic Food Shop</h1>
+</div>
+<div class="row">
+    @foreach (var fruit in Model.Fruits)
+    {
+        <div id="Container" class="col-lg-3 col-md-4 col-sm-1">
+            <img id="Image" style="width: 100%; height: 100%;" src="@fruit.image" alt="@fruit.name" />
+            <span id="Title">@fruit.name</span>
+            <span id="Price">Rs. Coming Soon</span>
+            <span id="Quantity"><input id="quantityInput" type="number" name="Quantity" value="" placeholder="0" /></span>
+            <span id="CartButton"><button id="btn"><span class="fa fa-shopping-cart"></span>Add to Cart</button></span>
+        </div>
+    }
+</div>

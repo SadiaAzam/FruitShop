@@ -1,0 +1,78 @@
+[
+  {
+    "id": 1,
+    "name": "Peach",
+    "image": "https://purepng.com/public/uploads/large/purepng.com-peachfruitspeach-981524762023fxagv.png"
+  },
+  {
+    "id": 2,
+    "name": "Orange",
+    "image": "https://purepng.com/public/uploads/large/purepng.com-orangefruitsorangetasteysweetripefood-981524726779k4sxb.png"
+  },
+  {
+    "id": 3,
+    "name": "Banana",
+    "image": "https://purepng.com/public/uploads/large/purepng.com-bananafruitsyellowfruitbanana-9815247546030g1fn.png"
+  },
+  {
+    "id": 4,
+    "name": "Blueberries",
+    "image": "https://purepng.com/public/uploads/large/purepng.com-blueberriesfruitsblueberriesberryberriesblueberry-981524760712azemu.png"
+  },
+  {
+    "id": 5,
+    "name": " Pomegranate",
+    "image": "https://img.freepik.com/free-photo/exotic-delicious-pomegranate-white-background_144627-12572.jpg?w=740&t=st=1667061448~exp=1667062048~hmac=5d709f3dbdec2166505d55f1f3793ccbcd374b4f7f666de2c3521becbf4a4904.png"
+  },
+
+  {
+    "id": 6,
+    "name": "Red Grapes",
+    "image": "https://purepng.com/public/uploads/large/purepng.com-red-grapesfruitsred-grapes-981524762488wl7wb.png"
+  },
+  {
+    "id": 7,
+    "name": "Dragon Fruit",
+    "image": "https://purepng.com/public/uploads/large/purepng.com-dragon-fruitfruitsdragon-fruitpitayapitahaya-981524762841msxvf.png"
+  },
+  {
+    "id": 8,
+    "name": "Ripe Cantaloupe Melon",
+    "image": "https://purepng.com/public/uploads/large/purepng.com-ripe-cantaloupe-melonfruitsmeloncantaloupe-981524763349e7i7d.png"
+  },
+  {
+    "id": 9,
+    "name": "Apple",
+    "image": "https://purepng.com/public/uploads/large/purepng.com-red-appleapplemalus-domesticafruitdeliciousred-apple-1701527165265bxc1j.png"
+  },
+  {
+    "id": 10,
+    "name": "Lemon",
+    "image": "https://purepng.com/public/uploads/large/purepng.com-lemon-with-leaffruitslemonyellowcitrus-fruit-981524760923rq6v6.png"
+  },
+  {
+    "id": 11,
+    "name": "Mango",
+    "image": "https://www.cspinet.org/sites/default/files/styles/og_image/public/2022-03/april19_rightStuff_ValeriLuzina_adobe_hero_750x530.jpg?itok=C_oswv5L.png"
+  },
+  {
+    "id": 12,
+    "name": "Raspberry",
+    "image": "https://purepng.com/public/uploads/large/purepng.com-raspberryfruitsberryberriesraspberryrasberries-981525182251jnzwb.png"
+  },
+  {
+    "id": 13,
+    "name": "Apricot",
+    "image": "https://purepng.com/public/uploads/large/purepng.com-apricotapricotfruitstone-fruitsstone-fruitsbrigantinafrom-small-tree-1701527114962jknrs.png"
+  },
+  {
+    "id": 14,
+    "name": "Lychee",
+    "image": "https://purepng.com/public/uploads/large/purepng.com-lycheefruitslycheelitchiliecheelizhili-zhilichee-981525183308x0ogy.png"
+  },
+  {
+    "id": 15,
+    "name": "Guava",
+    "image": "https://purepng.com/public/uploads/large/purepng.com-guavafruitsguava-981525184052g8nsu.png"
+  }
+]

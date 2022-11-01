@@ -3,8 +3,18 @@
 @{
     ViewData["Title"] = "Home page";
 }
+<form action="/FormHandler" method="get">
+    <label for="id">Enter Fruit ID:</label>
+    <input id="id" type="number" name="id" value="" required />
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-</div>
+    <label for="name">Enter Fruit Name:</label>
+    <input id="name" type="text" name="name" value="" required />
+
+    <label for="image">Enter Fruit URL:</label>
+    <input id="image" type="text" name="image" value="" required />
+
+    <input type="submit" name="submit" value="Submit" />
+</form>
+
+   
+  
