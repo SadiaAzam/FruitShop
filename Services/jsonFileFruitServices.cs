@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Hosting;
 using System.Collections.Generic;
 using System.IO;
+using System.Linq;
 using System.Text.Json;
 
 namespace FruitShop.Services
@@ -35,6 +36,18 @@ namespace FruitShop.Services
             {
                 return JsonSerializer.Deserialize<Fruit[]>(filestream.ReadToEnd());
             }
+        }
+        public void setFruitRecords(Fruit obj, jsonFileFruitService FruitService)
+        {
+            IEnumerable<Fruit> FruitRecords = FruitService.getFruitRecord();
+            List<Fruit> listFruitRecords = FruitRecords.ToList();
+            listFruitRecords.Add(obj);
+
+            string finalData = JsonSerializer.Serialize<List<Fruit>>(listFruitRecords);
+            StreamWriter file_stream = new StreamWriter(fileAddress);
+            file_stream.Write(finalData);
+            file_stream.Flush();
+            file_stream.Close();
         }
     }
 }

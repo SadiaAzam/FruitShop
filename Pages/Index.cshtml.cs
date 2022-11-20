@@ -24,7 +24,7 @@ namespace FruitShop.Pages
 
         public void OnGet()
         {
-            Fruits = FruitService.getFruitRecord();
+            
         }
     }
 }
